@@ -12,7 +12,7 @@ cmd('git push origin main')
 
 print(response)
 
-if int(response) != 0:
+if response.returncode != 0:
     print("Press any key to exit.")
     msvcrt.getch()
     sys.exit()
