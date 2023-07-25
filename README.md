@@ -22,10 +22,10 @@ El .exe debe encontrarse entre los archivos del repositorio que estés queriendo
 Ejecuta el script haciendo doble click en el updateRepo.exe
 La aplicación automáticamente ejecutará los siguientes comandos.
 
-git pull  
-git add .  
-git commit -m "updated via updateRepo"  
-git push origin main
+`git pull`  
+`git add .`  
+`git commit -m "updated via updateRepo"`  
+`git push origin main`
 
 Si todo se realizó normalmente, se cerrará la ventana del cmd.  
 De lo contrario, se mantendrá abierta con los errores que hayan.
