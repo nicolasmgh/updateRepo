@@ -14,7 +14,8 @@ response = cmd('git add .')
 
 if response == 128:
     print("\nERROR")
-    print("Presiona una tecla para finalizar el programa...")
+    print("Press any key to exit.")
+    msvcrt.getch()
     sys.exit()
 
 cmd('git commit -m "."')
