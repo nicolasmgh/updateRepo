@@ -4,8 +4,6 @@ Aplicación basada en Python que permite actualizar repositorios con un click!
 
 ## Nota de versión
 
-¡Advertencia!
-
 Esta aplicación se encuentra en una versión muy temprana y está en desarrollo activo. Puede contener errores y limitaciones. En un principio, fue creada únicamente para uso personal, pero decidí compartirla en su estado actual para aquellos que puedan encontrarla útil o deseen contribuir a su mejora.
 
 **Aviso:** No se recomienda utilizar esta versión en producción o para proyectos críticos.
@@ -27,7 +25,7 @@ La aplicación automáticamente ejecutará los siguientes comandos.
 git pull  
 git add .  
 git commit -m "updated via updateRepo"  
-git push origin main  
+git push origin main
 
 Si todo se realizó normalmente, se cerrará la ventana del cmd.  
 De lo contrario, se mantendrá abierta con los errores que hayan.
