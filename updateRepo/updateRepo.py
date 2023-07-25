@@ -6,11 +6,12 @@ def cmd(cmd):
     response = subprocess.run(cmd, shell=True)
     return response
 
-response = cmd('git add .')
+cmd('git pull')
+
+cmd('git add .')
 cmd('git commit -m "updated via updateRepo"')
 cmd('git push origin main')
 
-if response.returncode != 0:
-    print("Press any key to exit.")
-    msvcrt.getch()
-    sys.exit()
+print("Press any key to exit.")
+msvcrt.getch()
+sys.exit()
