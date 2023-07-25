@@ -7,7 +7,6 @@ def cmd(cmd):
     return response
 
 cmd('git pull')
-print()
 
 cmd('git add .')
 print()
