@@ -10,8 +10,6 @@ response = cmd('git add .')
 cmd('git commit -m "updated via updateRepo"')
 cmd('git push origin main')
 
-print(response)
-
 if response.returncode != 0:
     print("Press any key to exit.")
     msvcrt.getch()
