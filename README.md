@@ -32,4 +32,4 @@ De lo contrario, se mantendrá abierta con los errores que hayan.
 
 ## Contribuciones
 
-¡Toda ayuda es bienvenida! Si encuentras algún problema, tienes una idea para una mejora o deseas colaborar, no dudes en hacerlo. Puedes abrir un issue o enviar una pull request, y estaré encantado de revisarlo y trabajar juntos para hacer que esta aplicación sea aún mejor.
+¡Toda ayuda es bienvenida!
