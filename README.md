@@ -27,8 +27,6 @@ La aplicación automáticamente ejecutará los siguientes comandos.
 `git commit -m "updated via updateRepo"`  
 `git push origin main`
 
-Si todo se realizó normalmente, se cerrará la ventana del cmd.  
-De lo contrario, se mantendrá abierta con los errores que hayan.
 
 ## Contribuciones
 
